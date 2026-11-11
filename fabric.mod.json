@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "curtaincall",
+  "version": "${version}",
+  "name": "Curtain Call",
+  "description": "55 funny, cool and scary death animations. Pick one, cycle them or go random, with full control over volume, pitch and particles.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.curtaincall.CurtainCall"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

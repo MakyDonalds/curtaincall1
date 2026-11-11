@@ -35,3 +35,17 @@ java {
     sourceCompatibility = JavaVersion.VERSION_21
     targetCompatibility = JavaVersion.VERSION_21
 }
+
+// alle bestanden staan plat in de hoofdmap (geen src-mappen nodig)
+sourceSets {
+    main {
+        java {
+            srcDirs = ['.']
+            include '*.java'
+        }
+        resources {
+            srcDirs = ['.']
+            include 'fabric.mod.json'
+        }
+    }
+}
