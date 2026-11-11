@@ -1,0 +1,5 @@
+1. Maak een gratis account op github.com en klik rechtsboven op + > New repository (naam: curtaincall, Public).
+2. Klik "uploading an existing file", sleep ALLES uit deze map erin (ook de verborgen map .github) en klik Commit.
+3. Ga naar het tabblad Actions. Wacht ~3 minuten tot er een groen vinkje staat.
+4. Klik op de run, scroll naar beneden bij "Artifacts" en download curtaincall-jar. Pak de zip uit: daar zit je .jar in.
+5. Zet de .jar + Fabric API in je mods-map (Minecraft 1.21.11 met Fabric Loader).
